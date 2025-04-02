@@ -1,0 +1,14 @@
+{
+  "remoteRepoUrl": "https://repo.klnsdr.com",
+  "project": {
+    "entry": "",
+    "name": "html",
+    "version": "1.0",
+    "group": "common",
+    "dependencies": []
+  },
+  "compiler": {
+    "version": "11"
+  },
+  "exclude": []
+}
