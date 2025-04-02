@@ -1,7 +1,7 @@
 package common.html;
 
 public class Div extends HtmlElement {
-    public Div(String tag) {
+    public Div() {
         super("div");
     }
 }
