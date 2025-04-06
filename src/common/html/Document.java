@@ -30,6 +30,8 @@ public class Document extends HtmlElement {
         sb.append("<!DOCTYPE html>");
         sb.append("<html>");
         sb.append("<head>");
+        sb.append("<meta charset=\"UTF-8\">");
+        sb.append("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">");
         sb.append("<title>").append(title).append("</title>");
         for (String scriptSrc : scripts) {
             sb.append(new Script(scriptSrc).toHtml());
